@@ -31,14 +31,6 @@ export default function ProfilStatique() {
       setImage(require("./assets/t_obese.png")); 
     }
   };
-
-  const clearInput = () => {
-    setPoids("");
-    setTaille("");
-    setIMC(null);
-    setImage(null);
-  };
-
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.mainTitle}>IMC For II-Master BDCC 1</Text>
